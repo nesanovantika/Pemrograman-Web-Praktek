@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home - Aston Hotel</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Tambahkan Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      color: #2c3e50;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+      background: linear-gradient(90deg, #1abc9c, #3498db);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: fadeInDown 1.5s ease;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body class="home-page">
+
+  <header>
+  <div class="header-container">
+    <div class="logo-title">
+      <img src="img/logo.png" alt="Aston Hotel Logo" class="logo-img" />
+    </div>
+    <nav>
+      <ul class="menu">
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">|About Us|</a>
+          <div class="dropdown-content">
+            <a href="profile.html">Profile</a>
+            <a href="restoran.html">Resto</a>
+            <a href="fasilitas.html">Facility</a>
+            <a href="kontak.html">Contact</a>
+          </div>
+        </li>
+        <li><a href="kamar.html"> |Room|</a></li>
+        <li><a href="meetingevent.html">|Meeting/Event|</a></li>
+        <li><a href="lokasi.html">|Location|</a></li>
+        <li><a href="profileprog.html">|Profile Programmer|</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+
+  <main>
+    <h2>Welcome to Aston Hotel</h2>
+    <p>click the menu above to see more information.</p>
+    <div class="gallery">
+      <img src="img/aston1.jpg" alt="Hotel View 1">
+      <img src="img/aston2.jpg" alt="Hotel View 2">
+      <img src="img/aston3.jpg" alt="Hotel View 3">
+    </div>
+  </main>
+
+</body>
+</html>
